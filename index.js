@@ -7,7 +7,7 @@ app.listen(process.env.PORT || 3000, () => console.log('Server is running'));
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'Japanese_vilage.aternos.me',
+    host: 'leech.aternos.host',
     port: 20604,
     username: 'AFK_Bot_247',
     auth: 'offline',
